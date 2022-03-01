@@ -118,3 +118,42 @@ li:hover{
  height: 700px;
  border-radius: 20px;
 }
+
+
+
+@media screen and (max-width: 992px) {
+    .nav img:nth-of-type(3){
+        display: none;
+    }
+    .nav img:nth-of-type(2){
+        display: none;
+    }
+    .nav img:nth-of-type(4){
+        display: none;
+    }
+    .nav img:nth-of-type(5){
+        display: none;
+    }
+    .a{
+        display: none;
+    }
+    .nav a{
+        margin-left: 40vw;
+        /* border: solid 2px black; */
+    }
+    .days {
+        grid-template-columns: auto auto auto;
+    }
+    .option{
+        grid-template-columns: auto;
+        
+    }
+    .opt{
+        margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .days {
+        grid-template-columns: auto auto ;
+    }
+  }
